@@ -12,7 +12,7 @@ var total=result.reduce { product, next ->product*next  }
 
 }
 fun mixed(output:Array<Any>):Double{
-  var sum=2.2
+  var sum=0.0
     output.forEach { Any ->
         if (Any is Double)
             sum+=Any
